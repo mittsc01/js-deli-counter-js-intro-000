@@ -21,5 +21,6 @@ function currentLine(katzDeliLine){
       newstr+=`${i+1}. ${katzDeliLine[i]}, `
     }
     newstr+=`${katzDeliLine.length}. ${katzDeliLine[katzDeliLine.length-1]}`
+    return newstr;
   }
 }
